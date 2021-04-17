@@ -8,7 +8,5 @@
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "noEmit": false
-  },
-  "include": ["src"],
-  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
+  }
 }
