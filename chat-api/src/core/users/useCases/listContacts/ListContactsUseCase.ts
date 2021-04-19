@@ -1,7 +1,6 @@
 import { AppError } from '../../../../shared/AppError';
 import { Either, left, right } from '../../../../shared/Either';
 import User from '../../domain/User';
-import UserAlreadyExistsError from '../../errors/UserAlreadyExitsError';
 import UserNotFoundError from '../../errors/UserNotFoundError';
 import IUserRepository from '../../repository/UserRepository';
 import { ListContactsDto } from './ListContactsDto';
